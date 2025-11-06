@@ -1,0 +1,19 @@
+/* src/styles.css */
+
+/* 1. Importa a fonte do Google Fonts (se você usar uma fonte customizada) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* 2. Aplica a fonte a todo o corpo do documento */
+body {
+    font-family: 'Roboto', sans-serif; /* Fallback para sans-serif caso a fonte não carregue */
+    margin: 0; /* Remove margem padrão do body */
+    padding: 0;
+    background-color: #f8f8f8; /* Define um fundo leve para o corpo */
+}
+
+/* 3. Estiliza o App principal (Onde o Angular injeta o conteúdo) */
+app-root {
+    /* O Angular injeta seu componente raiz (<app-root>) aqui */
+    display: block; 
+}/* You can add global styles to this file, and also import other style files */
