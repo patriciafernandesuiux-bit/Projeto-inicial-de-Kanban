@@ -36,7 +36,7 @@ jobs:
       - name: Upload production-ready files
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/Projeto-inicial-de-Kanban  
+          path: dist/Projeto-inicial-de-Kanban 
 
   deploy:
     environment:
